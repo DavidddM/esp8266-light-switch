@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESP</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 50pt;
+        color: white;
+        font-weight: bold;
+      }
+      .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      a,
+      div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .onCont {
+        background-color: #52cc00;
+      }
+      .offCont {
+        background-color: #6e0310;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        height: inherit;
+        width: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="on">
+        <div class="onCont"><p>On</p></div>
+      </a>
+      <a href="off">
+        <div class="offCont"><p>Off</p></div>
+      </a>
+    </div>
+  </body>
+</html>
